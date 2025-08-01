@@ -1,0 +1,32 @@
+{
+  "devDependencies": {
+    "esbuild": "^0.25.8",
+    "typescript": "^5.9.2"
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e",
+  "name": "ng-extension",
+  "version": "0.0.1",
+  "description": "Developing Chrome extension using Angular",
+  "main": "index.js",
+  "scripts": {
+    "build": "node builder.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xxzhong21330/ng-extension.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xxzhong21330/ng-extension/issues"
+  },
+  "homepage": "https://github.com/xxzhong21330/ng-extension#readme",
+  "dependencies": {
+    "@angular/common": "^20.1.4",
+    "@angular/compiler": "^20.1.4",
+    "@angular/core": "^20.1.4",
+    "@angular/platform-browser": "^20.1.4",
+    "rxjs": "^7.8.2"
+  }
+}
